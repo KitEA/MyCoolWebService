@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: "create" #create update
+      naming-strategy: "org.springframework.boot.orm.jpa.hibernate.SpringNamingStrategy"
+  datasource:
+    platform: "postgres"
+    url: "jdbc:postgresql://localhost:5432/filestorage"
+    driverClassName: "org.postgresql.Driver"
+    username: "postgres"
+    password: "2459rdzaME"
